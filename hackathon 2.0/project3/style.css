@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#ffc323, #fcb231);
+    font-family: Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container>h1 {
+    background: transparent;
+    margin-bottom: 90px;
+    font-family: 'Ubuntu';
+    font-size: 5rem;
+    font-weight: 800;
+    text-shadow: 5px 3px 2px rgb(255, 66, 97)    ;
+}
+
+.box {
+    margin-top: 50px;
+    /* border: 2px solid red; */
+}
+
+.drum {
+    height: 153px;
+    width: 154px;
+    margin: 0px 10px;
+    border: 10px solid #cc9600;
+    border-radius: 10px;
+    font-size: 4rem;
+    color: rgb(255, 66, 97);
+    font-weight: 900;
+    font-family: 'Ubuntu';
+    outline: none;
+    cursor: pointer;
+}
+
+.d{
+    background-color: #fff;
+    background-image:url(./images/tom1.png) ;
+}
+
+.r{
+    background-color: #fff;
+    background-image:url(./images/tom2.png)
+}
+
+.u{
+    background-color: #fff;
+    background-image:url(./images/tom3.png)
+}
+
+.m{
+    background-color: #fff;
+    background-image:url(./images/tom4.png)
+}
+
+.k{
+    background-color: #fff;
+    background-image:url(./images/snare.png)
+}
+
+.i{
+    background-color: #fff;
+    background-image:url(./images/crash.png)
+}
+
+.t{
+    background-color: #fff;
+    background-image:url(./images/kick.png)
+}
